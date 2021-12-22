@@ -51,3 +51,7 @@ input{
 .search button:hover{
 	background-color: #939393;
 }
+
+.wheather.we{
+	visibility: hidden;
+}

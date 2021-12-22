@@ -19,6 +19,7 @@ let weather = {
 		document.querySelector('.humidity').innerText = "Humidity: " + humidity + "%";
 		document.querySelector('.wind').innerText = "Wind Speed: " + speed + "Km/h";
 		document.querySelector('.icon').src = "https://openweathermap.org/img/wn/" + icon + "@2x.png";
+		document.querySelector('.wheather').classList.remove("we")
 	},
 	search: function(){
 		this.fetchweather(document.querySelector('.search-bar').value);
